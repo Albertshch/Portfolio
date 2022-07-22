@@ -1,4 +1,132 @@
 
+
+
+
+
+
+
+let a = 11;
+
+console.log(a = 0 ? a : -a);
+
+
+
+
+
+// *************************
+
+// const test = 12;
+
+// if (test === 10){
+//     console.log('1')
+// }else if(test >= 111){
+//     console.log('2');
+// }else{
+//     console.log('3');
+// }
+
+// ***************************************
+// const userOne = {
+    // nameUser: 'Albert',
+    // ageUser: 22
+// }
+
+// const userInfo = ({nameUser}) => {
+    // if(!nameUser){
+        // return `User ${nameUser} not`
+    // }
+    // return `User sss`
+// }
+// userInfo(userOne);
+// console.log(userInfo(userOne));
+
+// ****************************
+
+// const userProfile = ['apple', 'banana']
+// const [apple] = userProfile
+// console.log(apple)
+
+
+// ************************
+// const myArray = [1, 2, 3, 4, 5];
+// myArray[0] = 'true';
+// myArray.pop()
+// myArray.forEach(el => console.log(el  * 2))
+// console.log(myArray);
+
+// ***********************************
+// const printError = () => {
+//     throw new Error('Some error')
+// }
+// try{
+//     printError()
+// }catch(error){
+//     console.warn(error);
+//     console.log(error.message);
+// }
+// console.log('Continue...');
+// ****************************
+
+// const newPost = (post, addedAt = Date()) => ({
+//     ...post,
+//     addedAt,
+// })
+// const firstPost = {
+//     id:1
+// }
+
+// console.log(newPost(firstPost));
+
+// *****************************
+// const ar = (a, b) => a+b
+// console.log(ar(5, 1));
+
+// *******************************
+// const button = {
+//     width: 200,
+//     text: 'Buy'
+// }
+
+// const redButton = { 
+//     ...button,
+//     text: 'G',
+//     color: 'red'
+// }
+
+// const testBut = {
+//     ...button,
+//     ...redButton,
+//     red: 'col'
+// }
+
+// console.table(testBut)
+// console.table(redButton)
+// console.table(button)
+
+
+
+
+// **********************
+
+// 'use strict'
+
+// function nsame() {
+//     a = true
+//     console.log(a);
+// }
+// nsame()
+// console.log(a);
+
+// **********************
+
+// function printMyName(){
+//     console.log('Albert');
+// }
+
+// setTimeout(printMyName, 3000)
+
+// ********************************
+
 // const num = {
 //     name: 123
 // };
