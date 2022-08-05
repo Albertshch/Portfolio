@@ -6,10 +6,9 @@
 
 
 let a = 11;
+let b = 12;
 
-console.log(a = 0 ? a : -a);
-
-
+console.log(a == 5 ? a : a + 5);
 
 
 
