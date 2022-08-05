@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "for default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albertshch/Portfolio.git"
+  },
+  "keywords": [
+    "qweqwe"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albertshch/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Albertshch/Portfolio#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

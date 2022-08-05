@@ -1,3 +1,13 @@
+const str = ['Hello junior developer'];
+const empty = [];
+
+
+
+
+str.forEach((elem) => {
+    str.push(elem.trim().split(" "))
+})
+console.log(str);
 
 
 
@@ -5,10 +15,92 @@
 
 
 
-let a = 11;
-let b = 12;
 
-console.log(a == 5 ? a : a + 5);
+
+// ****************************
+// const sum = (a, b) => a + b;
+
+// export default sum
+
+// *************************
+// const myString = 'Albert'
+
+// for(const key of myString){
+//     console.log(key + '!');
+// }
+
+// ***************************
+
+// const arAr = [true, 10, 'abc']
+
+// for (const key in arAr){
+//     console.log(arAr[key]);
+// }
+ 
+// *********************************
+// const asd = Object.values({name: 'Albert'})
+// console.log(asd);
+
+
+// ************************
+// const myObject = {
+//     x: 10,
+//     y: true,
+//     x: 'Name'
+// }
+
+// Object.keys(myObject).forEach(value => {
+//     console.log(value);
+// })
+
+// const myObject = {
+//     x: 10,
+//     y: true,
+//     x: 'Name'
+// }
+// for(key in myObject){
+//     console.log(key, myObject[key]);
+// }
+
+
+// let i = 0;
+
+// do {
+//     i++
+// } while (i <= 10)
+// console.log(i);
+
+
+// **********************************
+
+// let i = 0;
+
+// while (i < 5){
+//     i++
+// }
+// console.log(i);
+
+// **********************
+
+// const myArray = ['one', 'two', 'three']
+
+// myArray.forEach((elem, index) => {
+    // console.log(elem, index);
+// })
+// ***********************
+// for (let i = 0; i <= 3; i++){
+//     console.log(i);
+// }
+
+
+
+
+
+// Деструктуризация ***********************
+// let a = 11;
+// let b = 12;
+
+// console.log(a == 5 ? a : a + 5);
 
 
 
@@ -86,7 +178,7 @@ console.log(a == 5 ? a : a + 5);
 //     text: 'Buy'
 // }
 
-// const redButton = { 
+// const redButton = {
 //     ...button,
 //     text: 'G',
 //     color: 'red'
@@ -248,7 +340,7 @@ console.log(a == 5 ? a : a + 5);
 // console.log(newtest(str));
 
 
-// let str = "КаЖдЫй ОхОтНиК жЕлАеТ зНаТь";  
+// let str = "КаЖдЫй ОхОтНиК жЕлАеТ зНаТь";
 // let arr = "";
 
 // function change_register(str) {
@@ -263,16 +355,16 @@ console.log(a == 5 ? a : a + 5);
 // console.log(change_register(str))
 
 // *****************************
-// ЗАГЛАВНЫЕ СТРОЧНЫЕ И НАОБОРОТ 
+// ЗАГЛАВНЫЕ СТРОЧНЫЕ И НАОБОРОТ
 // *****************************
 
-// let str = "every., -/ hunter #! wishes ;: {} to $ % ^ & * know";  
+// let str = "every., -/ hunter #! wishes ;: {} to $ % ^ & * know";
 
 // function remove_char(str) {
 //     var res = "";
 //     res = str.replace(/[^\w\s]|_/g, "")
 //         //    .replace(/\s+/g, " ");
-//     return res;      
+//     return res;
 //  }
 //  console.log(remove_char(str));
 
